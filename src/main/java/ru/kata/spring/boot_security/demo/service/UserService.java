@@ -9,8 +9,6 @@ import java.util.Set;
 public interface UserService {
     List<User> getAllUsers();
 
-    void saveUser(User user);
-
     User getUser(Long id);
 
     void updateUser(User user, Set<Role> roles);
